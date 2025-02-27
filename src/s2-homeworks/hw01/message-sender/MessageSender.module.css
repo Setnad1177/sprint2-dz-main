@@ -1,0 +1,44 @@
+.sendForm {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 40px; /* Фиксированная высота контейнера */
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    width: 80%;
+    font-size: 17px;
+    color: black;
+    min-height: 40px; /* Задаем высоту 100% от родителя */
+    resize: none; /* Отключаем возможность изменения размеров */
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: none;
+}
+.textarea::placeholder {
+    color: gray;
+    font-size: 17px;
+}
+
+.button {
+    font-size: 17px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+
+.button:hover {
+
+}
+.button:active {
+
+}

@@ -1,0 +1,45 @@
+.button {
+    width: 250px;
+    height: 30px;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white
+}
+
+.disabled {
+    background-color: gray;
+}
+
+.secondary {
+    background-color: transparent;
+    color: blue
+}
+
+.default {
+}
+
+.red {
+    background-color: red;
+}
+
+.default:hover {
+}
+
+.red:hover {
+}
+
+.secondary:hover {
+}
+
+
+.default:active {
+}
+
+.secondary:active {
+}
+
+.red:active {
+}
+
+.button:disabled {
+}

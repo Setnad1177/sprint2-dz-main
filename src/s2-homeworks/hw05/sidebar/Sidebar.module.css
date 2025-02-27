@@ -1,0 +1,42 @@
+.sidebar {
+
+    width: 300px;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar.open {
+    display: block;
+}
+
+.background {
+    background-color: gray;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 50px
+}
+
+.nav a {
+    color: blue
+}
+
+.nav a:hover {
+}
+
+.nav a.active {
+    color: darkorange;
+}
+.close {
+}
+
+.close img {
+}
